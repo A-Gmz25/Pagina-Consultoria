@@ -7085,10 +7085,6 @@ textarea.form-control-lg {
   justify-content: flex-end !important;
 }
 
-.justify-content-center {
-  justify-content: center !important;
-}
-
 .justify-content-between {
   justify-content: space-between !important;
 }
@@ -7671,9 +7667,6 @@ textarea.form-control-lg {
   text-align: right !important;
 }
 
-.text-center {
-  text-align: center !important;
-}
 
 .text-decoration-none {
   text-decoration: none !important;
@@ -11303,7 +11296,7 @@ textarea.form-control-lg {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
+  background: url("../assets/img/block2.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -11320,6 +11313,10 @@ header.masthead:before {
 }
 header.masthead h1, header.masthead .h1 {
   font-size: 2rem;
+}
+header.masthead .parrafo, header.masthead .parrafo{
+  font-size: 1.2rem;
+  text-align: start;
 }
 @media (min-width: 768px) {
   header.masthead {
