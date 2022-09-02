@@ -11312,11 +11312,19 @@ header.masthead:before {
   opacity: 0.5;
 }
 header.masthead h1, header.masthead .h1 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
+header.masthead h1, header.masthead .mb-5{
+  font-size: 4rem;
+  text-shadow: 2px 2px 3px black;
+}
+
 header.masthead .parrafo, header.masthead .parrafo{
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   text-align: start;
+  text-decoration: underline;
+  text-shadow: 2px 2px 3px black;
+
 }
 @media (min-width: 768px) {
   header.masthead {
