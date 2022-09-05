@@ -11395,3 +11395,17 @@ footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+h3{
+  text-align: center;
+}
+.div-contacto{
+  background-color:#0dcaf0;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+}
+.inputs{
+  
+}
