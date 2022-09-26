@@ -501,6 +501,12 @@ progress {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  text-decoration: underline;
+}
+.lead:hover{
+  font-size: 1.35rem;
+  text-decoration: none;
+
 }
 
 .display-1 {
@@ -11406,6 +11412,6 @@ h3{
   align-items: center;
   height: 10rem;
 }
-.inputs{
-  
+.block7 {
+  background-image: url(../assets/img/block7.jpg);
 }
