@@ -699,6 +699,12 @@ progress {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
 }
+.row__testimonials{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
 
 .col {
   flex: 1 0 0%;
@@ -11369,13 +11375,25 @@ header.masthead .parrafo, header.masthead .parrafo{
 .testimonials {
   padding-top: 7rem;
   padding-bottom: 7rem;
+  text-align: center;
 }
 .testimonials .testimonial-item {
   max-width: 18rem;
+  
 }
 .testimonials .testimonial-item img {
   max-width: 12rem;
   box-shadow: 0px 5px 5px 0px #adb5bd;
+  
+}
+.sobre__nosotros{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.subtitulo__nosotros{
+  text-decoration: underline;
 }
 
 .call-to-action {
