@@ -11376,14 +11376,19 @@ header.masthead .parrafo, header.masthead .parrafo{
   padding-top: 7rem;
   padding-bottom: 7rem;
   text-align: center;
+  background-image: url(../assets/img/oficina_2.jpg);
 }
 .testimonials .testimonial-item {
   max-width: 18rem;
+  background-color: #FDFEFE;
+  padding: 0.5rem;
+  margin: 1rem;
+  box-shadow: 1px 2px 2px ;
   
 }
 .testimonials .testimonial-item img {
   max-width: 12rem;
-  box-shadow: 0px 5px 5px 0px #adb5bd;
+  box-shadow: 0px 5px 5px 0px #D6DBDF;
   
 }
 .sobre__nosotros{
@@ -11394,6 +11399,12 @@ header.masthead .parrafo, header.masthead .parrafo{
 }
 .subtitulo__nosotros{
   text-decoration: underline;
+}
+.sobre-nosotros{
+  background-image: url(../assets/img/block8.jpg);
+}
+.titulo__nosotros{
+  color: white;
 }
 
 .call-to-action {
